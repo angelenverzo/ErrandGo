@@ -1,0 +1,23 @@
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Private uploaded files
+uploads/*
+!uploads/.gitkeep
